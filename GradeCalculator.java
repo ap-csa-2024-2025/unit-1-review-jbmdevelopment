@@ -12,7 +12,7 @@ public class GradeCalculator
     double secondQuiz = 95.3;
     double finalExam = 50.25;
     int hours = (int)((time / 60) + 0.5);
-    System.out.print(course);
+    System.out.println(course);
     System.out.println("Avg time per week in hours: " + hours);
     System.out.println("Avg time per week in minutes: " + time);
   }
