@@ -8,5 +8,12 @@ public class GradeCalculator
     int secondGrade = 70;
     int thirdGrade = 95;
     int fourthGrade = 25;
+    double firstQuiz = 85.5;
+    double secondQuiz = 95.3;
+    double finalExam = 50.25;
+    int hours = (int)((time / 60) + 0.5);
+    System.out.print(course);
+    System.out.println("Avg time per week in hours: " + hours);
+    System.out.println("Avg time per week in minutes: " + time);
   }
 }
